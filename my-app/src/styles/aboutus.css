@@ -1,0 +1,134 @@
+.about-page {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    padding-left: 50px;
+    background-color: #141e30; 
+    color: #fff;
+  }
+  
+  .first-two{
+display: flex;
+flex-direction: column;
+gap: 3em;
+width: 100%;
+  }
+
+
+  .about-section {
+    height: 300px;
+    width: 70%;
+  }
+  
+  .about-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .departments-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    border: 5px solid green;
+  }
+
+  .departments-section h1{
+    position: relative;
+    left: 130px;
+  }
+  
+  .department {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 35px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#dept1{
+  width: 180px;
+  height: 110px;
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+
+#dept2{
+  width: 180px;
+  height: 110px;
+  position: relative;
+  left: 270px;
+  top: 25px;
+}
+
+#dept3{
+  width: 180px;
+  height: 110px;
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+
+#dept4{
+  width: 180px;
+  height: 110px;
+  position: relative;
+  left: 270px;
+  top: 25px;
+}
+
+  .department:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .details-section {
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    height: 550px;
+    width: 60%;
+   
+  }
+  
+  .profile-pic {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .details h2 {
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+    left:150px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 30px;
+  }
+
+  .details h4{
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+  }
